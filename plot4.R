@@ -4,9 +4,6 @@ plot4 <- function() {
   ## 2. subset for data taken from 2 days: 2007-02-01 and 2007-02-02
   ## 3. generate 4 plots in 1 space (GAP vs. time, Vol vs. time, submetering vs. time and GRP vs. time)
   
-  ## Parameters: none
-  ## Assumes household_power_consumption.txt file located in working dir
-  
   ## read data
   powerdata <- read.table("./household_power_consumption.txt", stringsAsFactors = FALSE, header = TRUE, sep =";"  )
   
