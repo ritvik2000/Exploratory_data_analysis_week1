@@ -1,4 +1,8 @@
 plot1<- function(){
+ ## Aim of this function is to 
+ ## read the household_power_consumption.txt file
+ ## , subset for data taken from 2 days: 2007-02-01 and 2007-02-02
+ ## and generate a histogram of global active power(kilowatts)
 
   powerdata <- read.table("./household_power_consumption.txt", stringsAsFactors = FALSE, header = TRUE, sep =";"  )
   
