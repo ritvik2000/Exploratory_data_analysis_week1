@@ -4,9 +4,6 @@ plot3 <- function(){
   ## 2. subset for data taken from 2 days: 2007-02-01 and 2007-02-02
   ## 3. generate a plot of different submetering vs time
   
-  ## Parameters: none
-  ## Assumes household_power_consumption.txt file located in working dir
-  
   ## read data
   powerdata <- read.table("./household_power_consumption.txt", stringsAsFactors = FALSE, header = TRUE, sep =";"  )
   
